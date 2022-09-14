@@ -2,9 +2,11 @@
     
     print('Hello Package')
 
+
 class myClass:
     def func_1(self):
         print('Hello Class')
+
 
 
 class Calculator:
@@ -14,6 +16,7 @@ class Calculator:
     def addtion(self):
         result = self.m + self.n
         return result
+
 
 class Calculator_2:
     def __init__(self, m, n):
@@ -26,6 +29,7 @@ class Calculator_2:
     def subtraction(self):
         result = self.m - self.n
         return result
+
 
 class myComputer(Calculator, Calculator_2):
     def multiplication(self):
