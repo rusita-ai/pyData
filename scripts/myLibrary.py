@@ -23,7 +23,7 @@ class Calculator_2:
         self.m = m
         self.n = n
         print('메모리에 인스턴스가 %d, %d 값과 함께 생성되었습니다.' % (m, n))
-    def inputData(self, m, n):
+    def inputData_2(self, m, n):
         self.m = m
         self.n = n
     def subtraction(self):
